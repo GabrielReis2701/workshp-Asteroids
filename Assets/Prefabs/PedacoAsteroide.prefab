@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4647966938953980774}
   - component: {fileID: 4677290244730150771}
   - component: {fileID: 10570245929903122}
+  - component: {fileID: -6821553434959626732}
   m_Layer: 0
   m_Name: PedacoAsteroide
   m_TagString: Untagged
@@ -99,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meuRigidbody: {fileID: 4677290244730150771}
   velocidadeMaxima: 1
+  prefabPedacoAsteroide: {fileID: -6821553434959626732}
 --- !u!50 &4677290244730150771
 Rigidbody2D:
   serializedVersion: 4
@@ -150,3 +152,17 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &-6821553434959626732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94284058464134273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ac0bec6e4a2c741a10c136267357c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meuRigidbody: {fileID: 4677290244730150771}
+  velocidadeMaxima: 1

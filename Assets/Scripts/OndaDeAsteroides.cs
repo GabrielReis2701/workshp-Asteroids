@@ -10,7 +10,7 @@ public class OndaDeAsteroides : MonoBehaviour
     {
         for(int i=0;i<quantAsteroides;i++){
             float x = Random.Range(-9.0f, 9.0f);
-            float y = Random.Range(-3.0f, 3.0f);
+            float y = Random.Range(-3.5f, 3.5f);
             Vector3 posicao = new Vector3(x, y, 0.0f);
             Instantiate(prefabAsteroide, posicao, Quaternion.identity);
         }
